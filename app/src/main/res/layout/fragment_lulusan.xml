@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/title_lulusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Profil Alumni"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/pre_lulusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_lulusan"
+            android:layout_marginTop="15dp"
+            android:background="@color/mainColor"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Profil dan Kompetensi Sarjana Peternakan mulai tahun 2014 dirumuskan berdasarkan pada Kepmendiknas No. 045/U/2002 tentang Kurikulum Inti Pendidikan Tinggi, Kesepakatan Forum Pimpinan Perguruan Tinggi Peternakan Indonesia tahun 2009 mengenai Profil dan Kompetensi Sarjana Peternakan, Perpres No. 8 Tahun 2012 tentang Kerangka Kualifikasi Nasional Indonesia/ KKNI/IQF dan UU No. 18 Tahun 2009 tentang Peternakan dan Kesehatan Hewan."
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="Profil lulusan Program Studi  Sarjana (S1) Ilmu Peternakan Fakultas Peternakan adalah sarjana yang memiliki profil sebagai (1) Knowledgeable and Skillful Worker (Pegawai Berpengetahuan dan Terampil), (2) Manager, dan (3) Entrepreneur. Berikut kompetensi yang harus dicapai untuk Lulusan Program Sarjana (S1):"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Knowledgeable and skillfull worker :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:stretchColumns="1,2">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="1."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Menguasai  ipteks dan keterampilan dasar peternakan ramah lingkungan"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="2."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mampu menerapkan ipteks dasar peternakan ramah clingkungan"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="3."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mampu menganalisis, menginterpretasikan dan   mengkomunikasikan hasil  penelitian secara oral dan  verbal"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="4."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mampu memecahkan permasalahan di bidangnya"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="5."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mampu memanfaatkan dan menggunakan TIK (Teknologi Informasi dan Komunikasi)"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="6."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mampu mengikuti perkembangan Ipteks"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="7."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mampu bekerjasama dalam tim dan beradaptasi dengan lingkungan kerja"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Manager :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:stretchColumns="1,2">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="1."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mampu menerapkan prinsip dasar manajemen"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="2."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mampu menerapkan prinsip dasar kepemimpinan"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="3."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mampu berkomunikasi secara efektif"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Enterpreneur :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:stretchColumns="1,2">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="1."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Memiliki kemampuan  memotivasi, berkreasi dan berinovasi"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="2."
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:maxWidth="250dp"
+                        android:paddingLeft="10dp"
+                        android:text="Mampu menerapkan kaidah entrepreneurship"
+                        android:textAlignment="textStart"
+                        android:textSize="12sp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title_testimoni"
+            android:layout_below="@id/pre_lulusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Kata Alumni"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/alumnis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_testimoni"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="50dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/alumni_rifqiismiraj"
+                        tools:ignore="ContentDescription" />
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="M. Rifqi Ismiraj\n\nALUMNI FAKULTAS PETERNAKAN"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Program Studi Ilmu Peternakan Universitas Padjadjaran adalah sebuah kualitas. Saya dapat mendapatkan ilmu di bidang peternakan secara luas dan mendetail. Kelompok kemahasiswaannya telah terbentuk dengan rapi dan efisien, sehingga saya dapat mengembangkan minat, keterampilan komunikasi, dan keterampilan organisasi dengan baik. Selain itu, segala kegiatan akademiknya menginspirasi saya untuk melanjutkan studi di Wageningen University, Belanda, dan ilmu dasar di jenjang Sarjana sangat membekali saya ketika saya studi di Wageningen. Terima kasih, Program Studi Ilmu Peternakan Universitas Padjadjaran!"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="50dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/alumni_bambang"
+                        tools:ignore="ContentDescription" />
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Bambang Kholiq Mutaqin\n\nALUMNI FAKULTAS PETERNAKAN"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Fakultas Peternakan Universitas Padjadjaran merupakan Fakultas yang memberikan kesempatan pada mahasiswa untuk mengembangkan potensi diri dengan memfasilitasi mahasiswa untuk aktif di unit profesi peternakan. Dimana dari pengembangan potensi diri lewat unit profesi tersebut telah melahirkan tokoh-tokoh nasional yang bergerak dalam bidang peternakan, baik yang aktif di instansi pemerintahan, bidang akademisi peternakan, dan bidang peternakan lainnya."
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="50dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/alumni_hassanishag"
+                        tools:ignore="ContentDescription" />
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Hassan Ishag Hassan Haren\n\nALUMNI FAKULTAS PETERNAKAN"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Firstly I want to thanks Unpad for making this great opportunity available to me I was just motivated to become skilled and talented rider as I was become an excellent student, making time for both was and still is, but I have always been able to find time for my passions. Attaining a M.sc, in Animal genetics is my groups chosen. Then the next challenge in my life which will allow me to attain another one of my career,"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="50dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/alumni_dianrifa"
+                        tools:ignore="ContentDescription" />
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Dian Rifa’i\n\nALUMNI FAKULTAS PETERNAKAN"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Kuliah di peternakan banyak kegiatan yang bisa mempersiapkan kita untuk siap terjun di dunia dan kerja, bukan hanya teori saja di kelas, yaitu melalui UKM yang ada."
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="50dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/alumni_juandylan"
+                        tools:ignore="ContentDescription" />
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Juan Dylan Ramadhan\n\nALUMNI FAKULTAS PETERNAKAN-WAKIL DIREKTUR PT. DILAR LINTAS RAYA"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Kuliah di Fakultas Peternakan sangat asik, menambah banyak wawasan dan relasi baru. Membuat saya menjadi Peternak gaul. ????"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="50dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/alumi_fredihidayat"
+                        tools:ignore="ContentDescription" />
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Fredy Hidayat\n\nALUMNI FAKULTAS PETERNAKAN-PEMILIK PURNAMA RAYA PS"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Jangan takut dan jangan minder kuliah d fakultas peternakan.karena d dalamnya terdapat banyak kesempatan untuk jd pengusaha sukses"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="50dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/alumni_erdikapurnama"
+                        tools:ignore="ContentDescription" />
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Erdika Purnama Diresta\n\nALUMNI FAKULTAS PETERNAKAN-ABA FARM"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="5dp"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Kuliah di Fapet Unpad itu pasti dapet ilmu yg komplit, dari ilmu teori dasar sampai ilmu lapangan. Ditambah jaringan keluarga alumni yang memudahkan untuk saling sharing dan bersinergi tentang berbagai hal usaha maupun pekerjaan. Fapet Unpad pilihan terbaik."
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="50dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/alumni_ambar"
+                        tools:ignore="ContentDescription" />
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ambar Siswati\n\nALUMNI FAKULTAS PETERNAKAN-ASN DINAS PETERNAKAN DAN KESEHATAN HEWAN PROVINSI LAMPUNG"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="5dp"/>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Kunci pertumbuhan tergantung pada ilmu begitu pun dengan kebahagiaan. 3 tahun 5 bln S1 ku, lanjut 4 thn S2 ku, di Fakultas Peternakan Unpad, aku Bahagia. Hal terpenting dan tidak muluk-muluk yaitu insyaAllah orangtuaku pasti bangga atas terjawabnya doa-doa. Me, FAPET UNPAD Pride. Thanks a lot UNPAD."
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="50dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/alumni_ginalukita"
+                        tools:ignore="ContentDescription" />
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gina Lukita\n\nALUMNI FAKULTAS PETERNAKAN-WAKIL KETUA ISPI BANTEN 2020-2023"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="5dp"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:text="Berkesempatan berkuliah di fapet Unpad adalah sebuah pengalaman berharga. Dibimbing oleh dosen2 kompeten dan berpengalaman. Segudang kegiatan mahasiswa inter fakultas, univ, hingga nasional yang semakim mengasah softskill dan networking. Hatur Nuhun fapet Unpad atas modal luar biasa, mempersiapkan saya dlm keilmuan, mental dan karakter untuk terjun bermasyarakat, sosial, hingga karir."
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title_pro_ternak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Dosen dan Kepakaran\nDepartemen Produksi Ternak"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_pro_ternak1"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/title_pro_ternak"
+            android:src="@drawable/pro_ternak1"/>
+
+        <ImageView
+            android:id="@+id/img_pro_ternak2"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_pro_ternak1"
+            android:src="@drawable/pro_ternak2"/>
+
+        <ImageView
+            android:id="@+id/img_pro_ternak3"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_pro_ternak2"
+            android:src="@drawable/pro_ternak3"/>
+
+        <ImageView
+            android:id="@+id/img_pro_ternak4"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_pro_ternak3"
+            android:src="@drawable/pro_ternak4"/>
+
+        <ImageView
+            android:id="@+id/img_pro_ternak5"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_pro_ternak4"
+            android:src="@drawable/pro_ternak5"/>
+
+        <ImageView
+            android:id="@+id/img_pro_ternak6"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_pro_ternak5"
+            android:src="@drawable/pro_ternak6"/>
+
+        <ImageView
+            android:id="@+id/img_pro_ternak7"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_pro_ternak6"
+            android:src="@drawable/pro_ternak7"/>
+
+        <TextView
+            android:id="@+id/title_nutrisi_tekpang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_pro_ternak7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Dosen dan Kepakaran\nDepartemen Nutrisi Ternak Dan Teknologi Pakan"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_nutrisi_tekpang1"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/title_nutrisi_tekpang"
+            android:src="@drawable/nutrisi_tekpang1"/>
+        <ImageView
+            android:id="@+id/img_nutrisi_tekpang2"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_nutrisi_tekpang1"
+            android:src="@drawable/nutrisi_tekpang2"/>
+        <ImageView
+            android:id="@+id/img_nutrisi_tekpang3"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_nutrisi_tekpang2"
+            android:src="@drawable/nutrisi_tekpang3"/>
+        <ImageView
+            android:id="@+id/img_nutrisi_tekpang4"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_nutrisi_tekpang3"
+            android:src="@drawable/nutrisi_tekpang4"/>
+        <ImageView
+            android:id="@+id/img_nutrisi_tekpang5"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_nutrisi_tekpang4"
+            android:src="@drawable/nutrisi_tekpang5"/>
+
+        <TextView
+            android:id="@+id/title_hasil_peternakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_nutrisi_tekpang5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Dosen dan Kepakaran\nDepartemen Teknologi Hasil Peternakan"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/img_hasil_peternakan1"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/title_hasil_peternakan"
+            android:src="@drawable/hasil_peternakan1"/>
+        <ImageView
+            android:id="@+id/img_hasil_peternakan2"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_hasil_peternakan1"
+            android:src="@drawable/hasil_peternakan2"/>
+        <ImageView
+            android:id="@+id/img_hasil_peternakan3"
+            android:layout_width="400dp"
+            android:layout_height="220dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_hasil_peternakan2"
+            android:src="@drawable/hasil_peternakan3"/>
+
+
+        <TextView
+            android:id="@+id/title_sosial_ekonomi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_hasil_peternakan3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Dosen dan Kepakaran\nDepartemen Sosial Ekonomi Pembangunan"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/img_sosial_ekonomi1"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/title_sosial_ekonomi"
+            android:src="@drawable/soskem_pembangunan"/>
+        <ImageView
+            android:id="@+id/img_sosial_ekonomi2"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_sosial_ekonomi1"
+            android:src="@drawable/soskem_pembangunan2"/>
+
+        <ImageView
+            android:id="@+id/img_sosial_ekonomi3"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_sosial_ekonomi2"
+            android:src="@drawable/soskem_pembangunan3"/>
+        <ImageView
+            android:id="@+id/img_sosial_ekonomi4"
+            android:layout_width="400dp"
+            android:layout_height="125dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_sosial_ekonomi3"
+            android:src="@drawable/soskem_pembangunan4"/>
+
+    </RelativeLayout>
+
+</ScrollView>

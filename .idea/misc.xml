@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Unpad/Backup lapto shalvin/E K S P L O R A S I/bismillah_faperta/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Unpad/Backup lapto shalvin/E K S P L O R A S I/bismillah_faperta/app/src/main/res/layout/fragment_fasilitas.xml" value="0.22" />
+        <entry key="..\:/Unpad/Backup lapto shalvin/E K S P L O R A S I/bismillah_faperta/app/src/main/res/layout/fragment_kontak.xml" value="0.14666666666666667" />
+        <entry key="..\:/Unpad/Backup lapto shalvin/E K S P L O R A S I/bismillah_faperta/app/src/main/res/layout/fragment_lulusan.xml" value="0.10089686098654709" />
+        <entry key="..\:/Unpad/Backup lapto shalvin/E K S P L O R A S I/bismillah_faperta/app/src/main/res/layout/fragment_profil.xml" value="0.14666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://schemas.android.com/apk/res/android" location="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
