@@ -329,7 +329,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/alumni_nurfadhilah"
+                        android:src="@drawable/alumni_nurfadhillah"
                         tools:ignore="ContentDescription" />
                 </androidx.cardview.widget.CardView>
 
@@ -374,7 +374,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/alumni_ryanchrisandi"
+                        android:src="@drawable/alumi_ryan"
                         tools:ignore="ContentDescription" />
                 </androidx.cardview.widget.CardView>
 
