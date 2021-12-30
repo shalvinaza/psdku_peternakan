@@ -1,395 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/title_fkegiatan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="35dp"
             android:fontFamily="@font/montserrat_bold"
-            android:gravity="center"
-            android:text="Fasilitas Kegiatan"
+            android:text="Teknologi dan Keamanan Gedung"
             android:textSize="20sp"
             android:textStyle="bold" />
-        <TextView
-            android:id="@+id/pre_fkegiatan"
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignLeft="@+id/title_fkegiatan"
-            android:layout_alignRight="@+id/fasilitas_kegiatan"
-            android:layout_below="@id/title_fkegiatan"
-            android:layout_marginTop="15dp"
-            android:justificationMode="inter_word"
-            android:text="Untuk memperlancar kegiatan kemahasiswaan, disediakan berbagai fasilitas pendukung, diantaranya :"
-            android:textSize="12sp" />
-        <RelativeLayout
-            android:id="@+id/fasilitas_kegiatan"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_alignLeft="@+id/title_fkegiatan"
-            android:layout_marginRight="35dp"
-            android:layout_marginTop="15dp"
-            android:layout_below="@+id/pre_fkegiatan"
-            android:background="@color/mainColor"
+            android:layout_height="200dp"
             android:layout_centerHorizontal="true"
-            >
-            <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:stretchColumns="1,2"
-                android:padding="15dp"
-                >
-                <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="1."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
+            android:layout_marginTop="15dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="4"
+            app:sliderStartAutoCycle="true" />
 
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Student centre"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-                <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="2."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Ruang Layanan Akademik"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Kandang praktek untuk aktifitas lembaga  keprofesian"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-                <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="3."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="4"
+            app:sliderStartAutoCycle="true" />
 
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Ruang diskusi"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-                <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="4."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Ruang Kelas Pembelajaran"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Lapangan Futsal Outdoor"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-                <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="5."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="4"
+            app:sliderStartAutoCycle="true" />
 
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Lapangan Basket Outdoor"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-                <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="6."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Ruang Perpustakaan"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Alat Kesenian Sunda (Gamelan)"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-            </TableLayout>
-        </RelativeLayout>
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="4"
+            app:sliderStartAutoCycle="true" />
 
-            <TextView
-                android:id="@+id/title_fbeasiswa"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/fasilitas_kegiatan"
-                android:layout_marginLeft="35dp"
-                android:layout_marginTop="30dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:gravity="center"
-                android:text="Fasilitas Beasiswa"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
-            <TextView
-                android:id="@+id/pre_fbeasiswa"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignLeft="@+id/title_fbeasiswa"
-                android:layout_alignRight="@+id/fasilitas_kegiatan"
-                android:layout_below="@id/title_fbeasiswa"
-                android:layout_marginTop="15dp"
-                android:justificationMode="inter_word"
-                android:text="Jumlah mahasiswa Fakultas Peternakan penerima beasiswa setiap tahunnya lebih dari 20%. Beasiswa tersebut bersumber dari berbagai institusi, baik institusi pemerintah maupun swasta diantaranya :"
-                android:textSize="12sp" />
-            <RelativeLayout
-                android:id="@+id/fasilitas_beasiswa"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_alignLeft="@+id/title_fkegiatan"
-                android:layout_marginRight="35dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="30dp"
-                android:layout_below="@+id/pre_fbeasiswa"
-                android:background="@color/mainColor"
-                android:layout_centerHorizontal="true"
-                >
-                <TableLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:stretchColumns="1,2"
-                    android:padding="15dp"
-                    >
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="1."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Laboratorium Komputer dan Bahasa"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Direktorat Pendidikan Tinggi (PPA, BBM, I-MHERE, dan BMU)"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="2."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="4"
+            app:sliderStartAutoCycle="true" />
 
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Bank Tabungan Negara"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="3."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Laboratorium Pendidikan"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Bank Indonesia"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="4."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider7"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="60dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="4"
+            app:sliderStartAutoCycle="true" />
 
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Bank Negara Indonesia"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="5."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Bank Mandiri"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="6."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Pertamina"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="7."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Pikiran Rakyat"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="8."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Ekacipta Foundation"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="9."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Yayasan Salemba Empat"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="10."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Yayasan Supersemar"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="11."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Sanbe Farma"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="12."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Darmawanita Unpad"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="13."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Alumni Fakultas Peternakan Unpad"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="14."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Pemerintah Daerah Jawa Barat"
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-                    <TableRow>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:text="15."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:maxWidth="250dp"
-                            android:paddingLeft="10dp"
-                            android:text="Dll."
-                            android:textAlignment="textStart"
-                            android:textSize="12sp" />
-                    </TableRow>
-
-                </TableLayout>
-            </RelativeLayout>
-
-    </RelativeLayout>
+    </LinearLayout>
 c
 </ScrollView>

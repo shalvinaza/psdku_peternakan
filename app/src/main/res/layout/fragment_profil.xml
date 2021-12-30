@@ -69,7 +69,7 @@
                 <TextView
                     android:maxWidth="160dp"
                     android:paddingLeft="5dp"
-                    android:text="Peternakan"
+                    android:text="Perternakan PSDKU Pangandaran"
                     android:textSize="12dp" />
             </TableRow>
 
@@ -140,7 +140,7 @@
 
                 <TextView
                     android:maxWidth="135dp"
-                    android:text="Nomor SK Pendirian PS"
+                    android:text="Nomor SK BAN-PT"
                     android:textSize="12dp"
                     android:textStyle="bold" />
 
@@ -153,7 +153,7 @@
                 <TextView
                     android:maxWidth="160dp"
                     android:paddingLeft="5dp"
-                    android:text="SK Dirjen DIKTI No. 4188/D/T/2004"
+                    android:text="SK BAN-PT No. 2857/SK/BAN-PT/Akred/S/V/2021"
                     android:textSize="12dp" />
             </TableRow>
 
@@ -161,7 +161,7 @@
 
                 <TextView
                     android:maxWidth="135dp"
-                    android:text="Tanggak SK Pendirian PS"
+                    android:text="Tahun Pendirian PS"
                     android:textSize="12dp"
                     android:textStyle="bold" />
 
@@ -174,7 +174,7 @@
                 <TextView
                     android:maxWidth="160dp"
                     android:paddingLeft="5dp"
-                    android:text="25 Oktober 2004"
+                    android:text="2016"
                     android:textSize="12dp" />
             </TableRow>
 
@@ -195,7 +195,7 @@
                 <TextView
                     android:maxWidth="160dp"
                     android:paddingLeft="5dp"
-                    android:text="SK Dirjen DIKTI No. 4188/D/T/2004"
+                    android:text="Prof. T. Basaruddin"
                     android:textSize="12dp" />
             </TableRow>
 
@@ -203,7 +203,7 @@
 
                 <TextView
                     android:maxWidth="135dp"
-                    android:text="Tahun Dimulainya PS"
+                    android:text="Mulai Tahun Ajaran PS"
                     android:textSize="12dp"
                     android:textStyle="bold" />
 
@@ -216,49 +216,7 @@
                 <TextView
                     android:maxWidth="160dp"
                     android:paddingLeft="5dp"
-                    android:text="2003"
-                    android:textSize="12dp" />
-            </TableRow>
-
-            <TableRow android:layout_marginTop="5dp">
-
-                <TextView
-                    android:maxWidth="135dp"
-                    android:text="Nomor SK Izin Operasional"
-                    android:textSize="12dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:maxWidth="5dp"
-                    android:text=":"
-                    android:textAlignment="center"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:maxWidth="160dp"
-                    android:paddingLeft="5dp"
-                    android:text="NO. 6991/D/T/K-N/2011"
-                    android:textSize="12dp" />
-            </TableRow>
-
-            <TableRow android:layout_marginTop="5dp">
-
-                <TextView
-                    android:maxWidth="135dp"
-                    android:text="Tangal SK Izin Operasional"
-                    android:textSize="12dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:maxWidth="5dp"
-                    android:text=":"
-                    android:textAlignment="center"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:maxWidth="160dp"
-                    android:paddingLeft="5dp"
-                    android:text="12 Mei 2011"
+                    android:text="2019/2020"
                     android:textSize="12dp" />
             </TableRow>
 
@@ -282,34 +240,35 @@
                     android:text="A"
                     android:textSize="12dp" />
             </TableRow>
-
-            <TableRow android:layout_marginTop="5dp">
-
-                <TextView
-                    android:maxWidth="135dp"
-                    android:text="Nomor SK BAN-PT"
-                    android:textSize="12dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:maxWidth="5dp"
-                    android:text=":"
-                    android:textAlignment="center"
-                    android:textSize="12dp" />
-
-                <TextView
-                    android:maxWidth="160dp"
-                    android:paddingLeft="5dp"
-                    android:text="No. 010/SK/BAN-PT/Ak-VS/S/1/2013"
-                    android:textSize="12dp" />
-            </TableRow>
         </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/title_tentang"
+            android:id="@+id/title_foto"
+            android:layout_below="@id/konten_tentang"
+            android:layout_marginTop="15dp"
+            android:text="Sertifikat Akreditasi"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/foto_sk"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/title_foto"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:src="@drawable/akreditasi" />
 
         <TextView
             android:id="@+id/title_landasan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/konten_tentang"
+            android:layout_below="@id/foto_sk"
             android:layout_alignLeft="@id/title_tentang"
             android:layout_marginTop="30dp"
             android:fontFamily="@font/montserrat_bold"
@@ -345,7 +304,7 @@
                 android:layout_below="@id/title_visi"
                 android:layout_marginTop="15dp"
                 android:justificationMode="inter_word"
-                android:text="Tahun 2024 menjadi program studi yang mempunyai komitmen terhadap keunggulan dalam ilmu pengetahuan dan teknologi peternakan ramah lingkungan dan daya saing di tingkat Internasional"
+                android:text="Menjadi Fakultas yang memiliki komitmen terhadap keunggulan dalam ilmu pengetahuan dan teknologi peternakan yang ramah lingkungan."
                 android:textSize="12sp" />
 
             <TextView
@@ -378,7 +337,7 @@
                     <TextView
                         android:maxWidth="250dp"
                         android:paddingLeft="10dp"
-                        android:text="Menyelenggarakan pendidikan sebagai wujud pengamalan profesionalisme dan ketakwaan kepada Tuhan yang Maha esa"
+                        android:text="Menyelenggarakan pendidikan peternakan pada berbagai strata di bidang ilmu pengetahuan dan teknologi peternakan secara efektif dan efisien dengan kurikulum yang berbasis kompetensi"
                         android:textAlignment="textStart"
                         android:textSize="12sp" />
                 </TableRow>
@@ -394,7 +353,7 @@
                     <TextView
                         android:maxWidth="250dp"
                         android:paddingLeft="10dp"
-                        android:text="Menyelenggarakan pendidikan sarjana peternakan di bidang ilmu pengetahuan dan teknologi peternakan secara efektif dan efisien dengan kurikulum yang  berbasis kompetensi "
+                        android:text="Menyelenggarakan pengkajian, penelitian, pengembangan dan penyebarluasan ilmu pengetahuan dan teknologi peternakan yang adaptif dan kompetitif"
                         android:textAlignment="textStart"
                         android:textSize="12sp" />
                 </TableRow>
@@ -410,23 +369,7 @@
                     <TextView
                         android:maxWidth="250dp"
                         android:paddingLeft="10dp"
-                        android:text="Menyelenggarakan pengkajian, penelitian, pengembangan dan penyebarluasan ilmu pengetahuan dan teknologi peternakan yang adaptif dan kompetitif"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="4."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Menyelenggarakan pengabdian kepada masyarakat secara proaktif melalui penyebaran dan penerapan ilmu dan teknologi peternakan yang sesuai dengan tuntutan dan kebutuhan masyarakat dan kemandirian peternak"
+                        android:text="Menyelenggarakan pengabdian kepada masyarakat secara proaktif melalui penyebaran dan penerapan ilmu pengetahuan dan teknologi peternakan yang sesuai dengan tuntutan dan kebutuhan masyarakat"
                         android:textAlignment="textStart"
                         android:textSize="12sp" />
                 </TableRow>
@@ -541,601 +484,46 @@
             </TableLayout>
 
             <TextView
-                android:id="@+id/title_capaian"
+                android:id="@+id/tujuan_general"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/konten_tujuann"
-                android:layout_centerHorizontal="true"
                 android:layout_marginTop="15dp"
-                android:text="Capaian Pembelajaran"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:layout_below="@id/konten_tujuann"
+                android:text="Meningkatkan Akses Pendidikan Tinggi di Selatan Jawa Barat"
                 android:textSize="14sp"
                 android:textStyle="bold" />
-
             <TextView
-                android:id="@+id/konten_capaian"
+                android:id="@+id/konten_general"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/title_capaian"
+                android:layout_below="@id/tujuan_general"
                 android:layout_marginTop="15dp"
-                android:text="Mengacu pada Perpres No. 8 Tahun 2012 tentang Kerangka Kualifikasi Nasional Indonesia/KKNI menjelaskan bahwa capaian pembelajaran sarjana berada pada level 6, yaitu :"
+                android:justificationMode="inter_word"
+                android:text="Kehadiran Program Studi Di Luar Kampus Utama (PSDKU) Peternakan Universitas Padjadjaran (Unpad) diyakini dapat mendekatkan akses layanan pendidikan tinggi bermutu sekaligus mampu mengembangkan potensi wilayah yang berdampak pada meningkatnya kesejahteraan masyarakat, khususnya di bidang pembangunan dan pengembangan potensi peternakan."
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tujuan_general2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:layout_below="@id/konten_general"
+                android:text="Konsistensi untuk Berkembang"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/konten_general2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tujuan_general2"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Pembangunan kampus PSDKU Unpad di Pangandaran saat ini sedang dilakukan bertahap. Beberapa bangunan yang akan dibangun meliputi: gedung akademik, ruang praktikum, pusat kegiatan mahasiswa, masjid, asrama mahasiswa, area olahraga, asrama dosen, serta tempat penginapan untuk umum. Kampus PSDKU Unpad di Pangandaran yang berada di dataran tinggi ini akan dilengkapi oleh fasilitas ruang terbuka seperti taman, jalur telusur hutan (forest walk), dan gardu pandang."
                 android:textSize="12sp" />
 
-            <TextView
-                android:id="@+id/title_sikap"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/konten_capaian"
-                android:layout_marginTop="15dp"
-                android:text="Sikap : "
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TableLayout
-                android:id="@+id/konten_sikap"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/title_sikap"
-                android:layout_marginTop="15dp"
-                android:stretchColumns="1,2">
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="1."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="2."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="3."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, bernegara, dan kemajuan peradaban berdasarkan Pancasila"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="4."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Berperan sebagai warga negara yang bangga dan cinta tanah air, memiliki nasionalisme serta rasa tanggungjawab pada negara dan bangsa"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="5."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Menghargai keanekaragaman budaya, pandangan, agama, dan kepercayaan, serta pendapat atau temuan orisinal orang lain"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="6."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Bekerja sama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="7."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="8."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Menginternalisasi nilai, norma, dan etika akademik"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="9."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Menunjukkan sikap bertanggungjawab atas pekerjaan di bidang keahliannya secara mandiri"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="10."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan; dan"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="11."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Memiliki kepekaan dan kepedulian terhadap kesejahteraan hewan"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-            </TableLayout>
-
-            <TextView
-                android:id="@+id/title_pengetahuan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/konten_sikap"
-                android:layout_marginTop="15dp"
-                android:text="Penguasaan Pengetahuan :"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TableLayout
-                android:id="@+id/konten_pengetahuan"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/title_pengetahuan"
-                android:layout_marginTop="15dp"
-                android:stretchColumns="1,2">
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="1."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Konsep teoretis teknologi budidaya, genetika, pemuliaan, reproduksi, nutrisi dan pakan, dan kesehatan ternak"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="2."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Konsep teoretis pengorganisasian sistim produksi ternak berkelanjutan"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="3."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Konsep teoretis secara umum teknologi pengolahan dan kewirausahaan hasil peternakan"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="4."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Prinsip-prinsip ilmu lingkungan, sosial, ekonomi, dan manajemen serta teknologi pengolahan hasil peternakan; dan"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="5."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Beberapa metode saintifik (eksperimental, kuantitatif dan kualitatif)"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-            </TableLayout>
-
-            <TextView
-                android:id="@+id/title_kkhuus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/konten_pengetahuan"
-                android:layout_marginTop="15dp"
-                android:text="Keterampilan Khusus :"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TableLayout
-                android:id="@+id/konten_kkhusus"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/title_kkhuus"
-                android:layout_marginTop="15dp"
-                android:stretchColumns="1,2">
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="1."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu merencanakan, melaksanakan, mengevaluasi, dan mengembangkan budidaya ternak dengan memanfaatkan potensi lokal dan mengintegrasikan pengetahuan tentang genetika, nutrisi, dan reproduksi serta mempertimbangkan aspek lingkungan, sosial dan ekonomi untuk menghasilkan ternak yang memiliki kualitas yang sesuai dengan tujuan pembudidayaan (misalnya; ternak potong, petelur, perah dan indukan)"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="2."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu mengelola peternakan yang berwawasan lingkungan  berdasarkan analisis masalah peternakan dengan memanfaatkan potensi lokal dan memperhatikan sustainabilitas"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="3."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu melaksanakan rencana teknis pekerjaan bidang peternakan (seleksi bibit/ bakalan ternak, formulasi ransum sederhana, teknologi reproduksi, tatalaksana pemeliharaan, dan/atau pengolahan pasca panen, pemasaran ternak dan hasil ternak)"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="4."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu mengidentifikasi dan menganalisis masalah peternakan serta menyajikan beberapa alternatif solusi di bidang peternakan yang dapat digunakan sebagai dasar pengambilan keputusan dengan pendekatan saintifik"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="5."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu mengembangkan kemanfaatan keilmuan peternakan untuk diaplikasikan pada lingkup kehidupan sehari-hari yang bermanfaat bagi masyarakat; dan"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="6."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu mengoptimalkan teknologi informasi dan komunikasi yang relevan untuk meningkatkan produktifitas kerja dan usaha"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-            </TableLayout>
-
-            <TextView
-                android:id="@+id/title_kumum"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/konten_kkhusus"
-                android:layout_marginTop="15dp"
-                android:text="Keterampilan Umum :"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TableLayout
-                android:id="@+id/konten_kumum"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/title_kumum"
-                android:layout_marginTop="15dp"
-                android:stretchColumns="1,2">
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="1."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu menerapkan pemikiran  logis, kritis, sistematis, dan inovatif dalam konteks pengembangan atau implementasi ilmu pengetahuan dan teknologi yang  memperhatikan dan menerapkan nilai humaniora yang sesuai dengan bidang keahliannya"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="2."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu menunjukkan kinerja mandiri, bermutu, dan terukur"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="3."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu mengkaji implikasi pengembangan atau implementasi ilmu pengetahuan dan teknologi yang memperhatikan dan menerapkan nilai humaniora sesuai dengan keahliannya berdasarkan kaidah, tata cara dan etika ilmiah dalam rangka menghasilkan solusi, gagasan, desain atau kritik seni"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="4."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu menyusun deskripsi saintifik hasil kajian tersebut di atas dalam bentuk skripsi atau laporan tugas akhir, dan mengunggahnya dalam laman perguruan tinggi"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="5."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu mengambil keputusan secara tepat dalam konteks penyelesaian masalah di bidang keahliannya, berdasarkan hasil analisis informasi dan data"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="6."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, sejawat baik di dalam maupun di luar lembaganya"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="7."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu bertanggung jawab atas pencapaian hasil kerja kelompok dan melakukan supervisi serta  evaluasi terhadap penyelesaian pekerjaan yang ditugaskan kepada pekerja yang berada di bawah tanggung jawabnya"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="8."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu melakukan proses evaluasi diri terhadap kelompok kerja yang berada dibawah tanggung jawabnya, dan mampu mengelola pembelajaran secara mandiri; dan"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-
-                <TableRow>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:text="9."
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:maxWidth="250dp"
-                        android:paddingLeft="10dp"
-                        android:text="Mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi"
-                        android:textAlignment="textStart"
-                        android:textSize="12sp" />
-                </TableRow>
-            </TableLayout>
         </RelativeLayout>
-
     </RelativeLayout>
 </ScrollView>

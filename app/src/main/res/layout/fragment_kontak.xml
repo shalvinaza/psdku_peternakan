@@ -45,7 +45,7 @@
                 android:layout_below="@id/title_lokasi"
                 android:layout_marginTop="10dp"
                 android:justificationMode="inter_word"
-                android:text="Jln. Raya Bandung Sumedang Km 21, Jatinangor, Sumedang"
+                android:text="Kampus PSDKU UNPAD Pangandaran, Dusun Sukamanah, Desa, RT.04/RW.05, Cintaratu, Parigi, Pangandaran, West Java 46393"
                 android:textSize="12sp" />
 
             <TextView
@@ -65,34 +65,14 @@
                 android:layout_below="@id/title_phone"
                 android:layout_marginTop="10dp"
                 android:justificationMode="inter_word"
-                android:text="(022)7798241"
-                android:textSize="12sp" />
-
-            <TextView
-                android:id="@+id/title_faksimili"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/phone"
-                android:layout_marginTop="15dp"
-                android:text="No. Faksimili PS"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/faksimili"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/title_faksimili"
-                android:layout_marginTop="10dp"
-                android:justificationMode="inter_word"
-                android:text="(022)7798212"
+                android:text="(022) 84288819 atau (022) 84288828"
                 android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/title_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/faksimili"
+                android:layout_below="@id/phone"
                 android:layout_marginTop="15dp"
                 android:text="Homepage dan E-mail PS"
                 android:textSize="14sp"
@@ -105,7 +85,7 @@
                 android:layout_below="@id/title_email"
                 android:layout_marginTop="10dp"
                 android:justificationMode="inter_word"
-                android:text="http://peternakan.unpad.ac.id\ndekanfapet@unpad.ac.id"
+                android:text="http://peternakan.psdku.unpad.ac.id/\npsdku.peternakan@unpad.ac.id"
                 android:textSize="12sp" />
         </RelativeLayout>
     </RelativeLayout>

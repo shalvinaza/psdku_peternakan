@@ -20,9 +20,9 @@ import static com.example.bismillah_faperta.R.id.slide;
 public class ProfilFragment extends Fragment {
 
     SliderView sliderView;
-    int[] images = {R.drawable.fapet1,
-            R.drawable.fapet2,
-            R.drawable.fapet3};
+    int[] images = {R.drawable.psdku,
+            R.drawable.psdku2,
+            R.drawable.psdku3};
 
     @Nullable
     @Override
