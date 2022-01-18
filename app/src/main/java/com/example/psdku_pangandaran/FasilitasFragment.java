@@ -1,4 +1,4 @@
-package com.example.bismillah_faperta;
+package com.example.psdku_pangandaran;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,13 +13,13 @@ import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnima
 import com.smarteist.autoimageslider.SliderAnimations;
 import com.smarteist.autoimageslider.SliderView;
 
-import static com.example.bismillah_faperta.R.id.image_slider2;
-import static com.example.bismillah_faperta.R.id.image_slider3;
-import static com.example.bismillah_faperta.R.id.image_slider4;
-import static com.example.bismillah_faperta.R.id.image_slider5;
-import static com.example.bismillah_faperta.R.id.image_slider6;
-import static com.example.bismillah_faperta.R.id.image_slider7;
-import static com.example.bismillah_faperta.R.layout.fragment_fasilitas;
+import static com.example.psdku_pangandaran.R.id.image_slider2;
+import static com.example.psdku_pangandaran.R.id.image_slider3;
+import static com.example.psdku_pangandaran.R.id.image_slider4;
+import static com.example.psdku_pangandaran.R.id.image_slider5;
+import static com.example.psdku_pangandaran.R.id.image_slider6;
+import static com.example.psdku_pangandaran.R.id.image_slider7;
+import static com.example.psdku_pangandaran.R.layout.fragment_fasilitas;
 
 public class FasilitasFragment extends Fragment {
     SliderView sliderView, sliderView2, sliderView3, sliderView4,sliderView5,sliderView6;

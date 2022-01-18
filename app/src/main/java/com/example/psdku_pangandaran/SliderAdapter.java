@@ -1,4 +1,4 @@
-package com.example.bismillah_faperta;
+package com.example.psdku_pangandaran;
 
 import android.view.LayoutInflater;
 import android.view.View;

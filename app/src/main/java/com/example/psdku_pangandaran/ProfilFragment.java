@@ -1,7 +1,6 @@
-package com.example.bismillah_faperta;
+package com.example.psdku_pangandaran;
 
 import android.os.Bundle;
-import android.transition.Slide;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,8 +13,7 @@ import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnima
 import com.smarteist.autoimageslider.SliderAnimations;
 import com.smarteist.autoimageslider.SliderView;
 
-import static com.example.bismillah_faperta.R.id.image_slider;
-import static com.example.bismillah_faperta.R.id.slide;
+import static com.example.psdku_pangandaran.R.id.image_slider;
 
 public class ProfilFragment extends Fragment {
 

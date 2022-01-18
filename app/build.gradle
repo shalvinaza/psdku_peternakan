@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "30.0.2"
     defaultConfig {
-        applicationId "com.example.bismillah_faperta"
+        applicationId 'com.example.psdku_peternakan'
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
